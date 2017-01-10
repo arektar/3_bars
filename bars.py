@@ -38,8 +38,7 @@ def get_closest_bar(data, longitude, latitude):
     return nearest
 
 if __name__ == '__main__':
-    #filepath=input("Введите полное имя файла со списком баров (.json): ")
-    filepath='data-2897-2016-11-23\data-2897-2016-11-23.json'
+    filepath=input("Введите полное имя файла со списком баров (.json): ")
     bars_data=load_data(filepath)
     biggest_bar=get_biggest_bar(bars_data)
     print("Самый большой бар: " + biggest_bar[0] + " " + str(biggest_bar[1]) + " мест.")
