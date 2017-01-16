@@ -11,7 +11,15 @@
 ```#!bash
 
 $ python bars.py # possibly requires call of python3 executive instead of just python
-# FIXME вывести пример ответа скрипта
+D:\Anaconda3\python.exe C:/Users/Алексей/PycharmProjects/untitled1/bars.py
+Введите полное имя файла со списком баров (.json): data-2897-2016-11-23\data-2897-2016-11-23.json
+Самый большой бар: Спорт бар «Красная машина» 450   мест.
+Самый маленький бар: БАР. СОКИ 0 мест.
+Введите свою долготу: 55.699888
+Введите свою широту: 37.920969
+Ближайший бар: Таверна координаты: 55.699888, 37.920969
+
+Process finished with exit code 0
 
 ```
 
